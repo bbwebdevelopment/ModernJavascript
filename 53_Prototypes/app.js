@@ -32,6 +32,7 @@ Person.prototype.getsMarried = function(newLastName){
   this.lastName = newLastName;
 
 }
+// init new person object
 const john = new Person('John', 'Doe', '9-12-90');
 const mary = new Person ('Mary', 'Johnson', 'March 20 1978');
 console.log(mary);
